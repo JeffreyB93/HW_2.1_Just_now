@@ -50,7 +50,7 @@ fun hours(howLongAgo: Int): String {
 
 
     if (howLongAgoDoubleStr[howLongAgoDoubleStr.length - 1] == '1' && howLongAgo != 11) {
-        return "$howLongAgoDoubleStr чам назад"
+        return "$howLongAgoDoubleStr час назад"
     }
     else if (howLongAgoDouble in 2..4) {
         return "$howLongAgoDoubleStr часа назад"
